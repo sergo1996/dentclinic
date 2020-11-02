@@ -1,0 +1,33 @@
+{
+  "files": {
+    "home-page.css": "/dentclinic/static/css/home-page.20a84444.chunk.css",
+    "home-page.js": "/dentclinic/static/js/home-page.31e490eb.chunk.js",
+    "home-page.js.map": "/dentclinic/static/js/home-page.31e490eb.chunk.js.map",
+    "login-page.js": "/dentclinic/static/js/login-page.c8ad3e5d.chunk.js",
+    "login-page.js.map": "/dentclinic/static/js/login-page.c8ad3e5d.chunk.js.map",
+    "main.css": "/dentclinic/static/css/main.a74279ef.chunk.css",
+    "main.js": "/dentclinic/static/js/main.b21d5916.chunk.js",
+    "main.js.map": "/dentclinic/static/js/main.b21d5916.chunk.js.map",
+    "messages-page.js": "/dentclinic/static/js/messages-page.99ad579e.chunk.js",
+    "messages-page.js.map": "/dentclinic/static/js/messages-page.99ad579e.chunk.js.map",
+    "register-page.js": "/dentclinic/static/js/register-page.29ea7b95.chunk.js",
+    "register-page.js.map": "/dentclinic/static/js/register-page.29ea7b95.chunk.js.map",
+    "runtime-main.js": "/dentclinic/static/js/runtime-main.d21b8216.js",
+    "runtime-main.js.map": "/dentclinic/static/js/runtime-main.d21b8216.js.map",
+    "settings-page.js": "/dentclinic/static/js/settings-page.5d4ab3bd.chunk.js",
+    "settings-page.js.map": "/dentclinic/static/js/settings-page.5d4ab3bd.chunk.js.map",
+    "static/js/7.7f06b121.chunk.js": "/dentclinic/static/js/7.7f06b121.chunk.js",
+    "static/js/7.7f06b121.chunk.js.map": "/dentclinic/static/js/7.7f06b121.chunk.js.map",
+    "index.html": "/dentclinic/index.html",
+    "static/css/home-page.20a84444.chunk.css.map": "/dentclinic/static/css/home-page.20a84444.chunk.css.map",
+    "static/css/main.a74279ef.chunk.css.map": "/dentclinic/static/css/main.a74279ef.chunk.css.map",
+    "static/js/7.7f06b121.chunk.js.LICENSE.txt": "/dentclinic/static/js/7.7f06b121.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/dentclinic/static/media/homepage_hero_img.583bf2fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d21b8216.js",
+    "static/js/7.7f06b121.chunk.js",
+    "static/css/main.a74279ef.chunk.css",
+    "static/js/main.b21d5916.chunk.js"
+  ]
+}

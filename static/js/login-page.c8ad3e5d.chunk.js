@@ -1,0 +1,2 @@
+(this.webpackJsonpdentclinic=this.webpackJsonpdentclinic||[]).push([[1],{59:function(t,c,n){"use strict";n.r(c);var e=n(1);n(0);c.default=function(){return Object(e.jsx)("div",{children:Object(e.jsx)("h1",{children:"Doctor"})})}},60:function(t,c,n){"use strict";n.r(c);var e=n(1);n(0);c.default=function(){return Object(e.jsx)("div",{children:Object(e.jsx)("h1",{children:"Photo"})})}}}]);
+//# sourceMappingURL=login-page.c8ad3e5d.chunk.js.map
