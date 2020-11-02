@@ -1,0 +1,69 @@
+.slider {
+  padding: 0;
+  position: relative;
+  background: url('../../image/homepage_hero_img.jpg') no-repeat center center;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 715px;
+
+
+}
+
+.sliderdarck{
+  display: block;
+  color: #fff;
+
+  background: linear-gradient(0deg, rgb(0, 0, 0, 0.5) 0%, rgb(255, 255, 250, 0) 30%);
+  height: 100vh;
+  max-height: 920px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+ 
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.part-text {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_description_block {
+  color: #fff;
+  margin: 10px 20px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+.cklickbutton{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(156, 182, 238);
+  box-shadow: 0 -3px rgb(156, 182, 238) inset;
+  transition: 0.2s;
+}
+
+
+.cklickbutton:hover { background: rgb(53, 167, 110);
+  box-shadow: 0 -3px rgb(33,147,90) inset; }
+.cklickbutton:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 -3px rgb(33,147,90) inset;
+
+}
+
