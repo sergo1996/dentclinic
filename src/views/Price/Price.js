@@ -1,8 +1,12 @@
 import React from "react";
-
+import itemList from "./itemList";
 const Price = () => (
   <div>
-    <h1>Price</h1>
+    <ul>
+      {itemList.map((item) => (
+        <h1 key={item.name}>{item.name} </h1>
+      ))}
+    </ul>
   </div>
 );
 

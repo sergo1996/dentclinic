@@ -1,9 +1,9 @@
 import React from "react";
-
-const Services = () => (
-  <div>
-    <h1>Services</h1>
-  </div>
-);
-
-export default Services;
+import ServisesViev from "../../Component/ServiceSection/ServiseSection";
+export default function Servises() {
+  return (
+    <div>
+      <ServisesViev />
+    </div>
+  );
+}

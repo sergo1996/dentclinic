@@ -1,9 +1,6 @@
 import React from "react";
+import DoctorsViev from "../../Component/Comand/Comand";
 
-const Doctor = () => (
-  <div>
-    <h1>Doctor</h1>
-  </div>
-);
+const Doctor = () => <DoctorsViev />;
 
 export default Doctor;

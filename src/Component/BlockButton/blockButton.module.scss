@@ -1,0 +1,77 @@
+.blockButton_cover{
+  height: 55px;
+  background-color: #4bcfcc;
+  position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+
+
+}
+
+
+.blockButton_information{
+width: 960px;
+margin: 0 auto;
+
+}
+
+.blockButton_information{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blockButton_document{
+  display: flex;
+}
+.blockButton_document_fi{
+  margin: 0;
+  border: none;
+  overflow: visible;
+  font: inherit;
+  color: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: .875rem;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  width: 240px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+    border: 1px solid #e5e5e5;
+}
+
+.servis_information_svg{
+  padding-right: 10px;
+  padding-left: 4px;
+  position: relative;
+  top:6px;
+}
+
+.blockButton_document_fi:hover{
+  color: #268e8c;
+  border-color: #268e8c;
+}
+
+.blockButton_forse{
+  display: flex;
+  justify-content: space-between;
+  widows: 70px;
+  height: 55px;
+}
+
+.blockButton_forse_svg{
+  cursor: pointer;
+  padding-left: 8px;
+  position: relative;
+  top: 20px
+}
+
+.blockButton_forse_svg:hover{
+fill:white
+}

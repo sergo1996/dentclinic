@@ -5,6 +5,7 @@ const routes = [
     path: "/",
     label: "",
     exact: true,
+    image: "https://i.ibb.co/rc3jfYz/logo-c.jpg",
     component: lazy(() =>
       import("../views/Home/Home.js" /* webpackChunkName: "home-page" */)
     ),
@@ -76,3 +77,7 @@ const routes = [
 ];
 
 export default routes;
+
+{
+  /* <a href="https://imgbb.com/"><img src="https://i.ibb.co/rc3jfYz/logo-c.jpg" alt="logo-c" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'>ssylka</a><br /><a href="https://imgbb.com/"><img src="https://i.ibb.co/rc3jfYz/logo-c.jpg" alt="logo-c" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'>картинки для перевода</a><br /> */
+}

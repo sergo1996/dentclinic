@@ -1,45 +1,43 @@
+.wraper{
+  padding: 0;
+  margin: 0;
+}
+
 .slider {
   padding: 0;
+  margin: 0;
   position: relative;
   background: url('../../image/homepage_hero_img.jpg') no-repeat center center;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 715px;
-
-
+  margin-bottom: 30px;
 }
 
-.sliderdarck{
-  display: block;
-  color: #fff;
-
-  background: linear-gradient(0deg, rgb(0, 0, 0, 0.5) 0%, rgb(255, 255, 250, 0) 30%);
-  height: 100vh;
-  max-height: 920px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
- 
-}
-.clearfix::after {
-  display: table;
+.slider:before{
   content: "";
-  clear: both;
+  position:absolute;width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
 }
 
-.part-text {
+.slider-part {
   padding: 0;
   margin: 0;
+  height: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.text_description_block {
+.slider_description {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
   color: #fff;
-  margin: 10px 20px;
   font-size: 48px;
   font-weight: 600;
   color: #fff;
@@ -47,7 +45,14 @@
 }
 
 
+
+
+.slider-partn-end{
+text-align: center;
+}
+
 .cklickbutton{
+margin-left: 20px;
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -57,7 +62,6 @@
   box-shadow: 0 -3px rgb(156, 182, 238) inset;
   transition: 0.2s;
 }
-
 
 .cklickbutton:hover { background: rgb(53, 167, 110);
   box-shadow: 0 -3px rgb(33,147,90) inset; }
