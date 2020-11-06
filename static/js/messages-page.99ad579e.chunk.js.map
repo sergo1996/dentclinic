@@ -1,1 +1,0 @@
-{"version":3,"sources":["views/Price/Price.js"],"names":["Price"],"mappings":"gIAQeA,UAND,kBACZ,8BACE","file":"static/js/messages-page.99ad579e.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nconst Price = () => (\r\n  <div>\r\n    <h1>Price</h1>\r\n  </div>\r\n);\r\n\r\nexport default Price;\r\n"],"sourceRoot":""}
