@@ -1,0 +1,74 @@
+[
+  {
+    "id": "XWaQghXcbk0",
+    "name": "nazar_keshn",
+    "nameSelect": "Кушнір Інна Ігорівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/5r2QGy0/0ade87ce460982897c23ddd637f2723f-1595942584.jpg",
+    "viuveProfil": "Переглянути профіль"
+   
+  },
+  {
+    "id": "XWaQgfhfgXcbk0",
+    "name": "artem_tarnik",
+    "nameSelect": "Тарніюк Алла Валерієвна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/c1tqYwB/944b30a0a1382148d0dc10b57e7db70f-1594300880.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  },
+  {
+    "id": "XWaQXgfhgcbk0",
+    "name": "orest_serd",
+    "nameSelect": "Сердюк Оля Остапівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/g6Dsh0P/e70889042a0766541b5b166658850925-1594301172.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  },
+  {
+    "id": "XWaQghgfXcbk0",
+    "name": "irin_romany",
+    "nameSelect": "Романюк Ірина Іванівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/nwRwdys/27e5ffa58617ab4b0d5f4f75a1545b7f-1594301005.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  },
+  {
+    "id": "XWaQhgfhXcbk0",
+    "name": "roman_chuch",
+    "nameSelect": "Чучак Оля Іванівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/x1ZWYrc/57cf493cf2d3f0d4c87c46efa6af5951-1594300755.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  },
+  {
+    "id": "XWaQXcfgbk0",
+    "name": "kolya_sanich",
+    "nameSelect": "Савчу Микола Йосипович",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/8d80tdk/62a5240ebd16dad1eed36a918492bba1-1594301247.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  },
+  {
+    "id": "XWaQXhgfcbk0",
+    "name": "petya_kush",
+    "nameSelect": "Кушнірук Ірина Василівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/5r2QGy0/0ade87ce460982897c23ddd637f2723f-1595942584.jpg",
+    "viuveProfil": "Переглянути профіль"
+   
+  },
+  {
+    "id": "hgfh",
+    "name": "maryana_komin",
+    "nameSelect": "Комін Мар'яна Ігорівна",
+    "specialty": "Спеціальність",
+    "image": "https://i.ibb.co/c1tqYwB/944b30a0a1382148d0dc10b57e7db70f-1594300880.jpg",
+    "viuveProfil": "Переглянути профіль"
+
+  }
+]
