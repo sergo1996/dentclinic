@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/Photo/Photo.js"],"names":["Photo"],"mappings":"gIAQeA,UAND,kBACZ,8BACE","file":"static/js/photo-page.8acf23f0.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nconst Photo = () => (\r\n  <div>\r\n    <h1>Photo</h1>\r\n  </div>\r\n);\r\n\r\nexport default Photo;\r\n"],"sourceRoot":""}

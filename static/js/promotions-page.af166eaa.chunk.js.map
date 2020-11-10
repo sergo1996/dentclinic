@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/Promotions/Promotions.js"],"names":["Promotions"],"mappings":"gIAQeA,UANI,kBACjB,8BACE","file":"static/js/promotions-page.af166eaa.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nconst Promotions = () => (\r\n  <div>\r\n    <h1>Promotions</h1>\r\n  </div>\r\n);\r\n\r\nexport default Promotions;\r\n"],"sourceRoot":""}
