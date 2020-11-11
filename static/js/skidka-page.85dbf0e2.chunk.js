@@ -1,0 +1,2 @@
+(this.webpackJsonpdentclinic=this.webpackJsonpdentclinic||[]).push([[12],{80:function(n,c,t){"use strict";t.r(c);var i=t(1);t(0);c.default=function(){return Object(i.jsx)("h1",{children:"Discount"})}}}]);
+//# sourceMappingURL=skidka-page.85dbf0e2.chunk.js.map

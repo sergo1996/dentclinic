@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Component/Slider/stylename.module.scss"],"names":[],"mappings":"AAAA,4BACE,aAAc,CACd,WAAY,CACZ,WAAY","file":"photo-page.5e3ae5ad.chunk.css","sourcesContent":[".container{\r\n  margin: 0 auto;\r\n  width: 960px; \r\n  height: auto;\r\n}"]}
