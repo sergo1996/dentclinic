@@ -1,2 +1,0 @@
-(this.webpackJsonpdentclinic=this.webpackJsonpdentclinic||[]).push([[0],{79:function(e,n,c){"use strict";c.r(n);var i=c(1);c(0);n.default=function(){return Object(i.jsx)("h1",{children:"Freereview"})}}}]);
-//# sourceMappingURL=asyncCast-cast.092d69d3.chunk.js.map

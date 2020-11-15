@@ -1,0 +1,1 @@
+{"version":3,"sources":["Component/Discount/Discount.js"],"names":["Discount"],"mappings":"iIAMeA,UAJf,WACE,OAAO","file":"static/js/skidka-page.f7cea99d.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nfunction Discount() {\r\n  return <h1>Discount</h1>;\r\n}\r\n\r\nexport default Discount;\r\n"],"sourceRoot":""}
