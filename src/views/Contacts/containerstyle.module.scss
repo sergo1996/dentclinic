@@ -1,0 +1,68 @@
+.contact_cover_block{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.contact_title{
+  color: #7b7a80;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.contact_container_list{
+  display: flex;
+  justify-content: space-between
+}
+
+.contact_container_item{
+margin-top: 40px;
+  width: 310px;
+ display: flex;
+
+ flex-direction: column;
+align-items: center
+}
+
+.contact_container_item_title{
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: #535258;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact_container_item_inform{
+  padding: 0;
+  margin: 0;
+  color: #535258;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.contact_cover_locationblock{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border: 1px solid #666;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.contact_cover_locationblock_title{
+  padding-left: 30px;
+}
+
+
+.contact_cover_iframe{
+  height: 600px;
+  width: 100%;
+}

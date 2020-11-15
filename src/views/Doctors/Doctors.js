@@ -1,6 +1,7 @@
 import React from "react";
 import DoctorsViev from "../../Component/Comand/Comand";
+import selectStyle from "./comand.module.scss";
 
-const Doctor = () => <DoctorsViev />;
+const Doctors = (props) => <DoctorsViev {...props} style={selectStyle} />;
 
-export default Doctor;
+export default Doctors;

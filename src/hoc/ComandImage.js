@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const withHigherOrderComponent = (WrappedComponent) => {
   return class WithHigherOrderComponent extends Component {
     render() {
+      console.log(this.props);
       const { style } = this.props;
       return (
         <div>
@@ -51,25 +52,35 @@ const withHigherOrderComponent = (WrappedComponent) => {
                     key={item.id}
                     className={style.comand_item}
                   >
-                    <NavLink to={item.name}>
+                    <NavLink
+                      style={{ textDecoration: "none" }}
+                      to={{
+                        pathname: "/doctors" + item.name,
+                        state: { from: item },
+                      }}
+                    >
                       <img
                         height="350px"
                         width="277px"
                         src={item.image}
                         alt="альтернативный текст"
                       />
-                    </NavLink>
-                    <div className={style.transition_slider}>
-                      <div className={style.block_button}>
-                        <h2 className={style.item_name}> {item.nameSelect}</h2>
-                        <span className={style.comand_item_position}>
-                          {item.specialty}
-                        </span>
-                        <a className={style.comand_item_more}>
-                          {item.viuveProfil}
-                        </a>
+
+                      <div className={style.transition_slider}>
+                        <div className={style.block_button}>
+                          <h2 className={style.item_name}>
+                            {" "}
+                            {item.nameSelect}
+                          </h2>
+                          <span className={style.comand_item_position}>
+                            {item.specialty}
+                          </span>
+                          <a className={style.comand_item_more}>
+                            {item.viuveProfil}
+                          </a>
+                        </div>
                       </div>
-                    </div>
+                    </NavLink>
                   </div>
                 );
               })}

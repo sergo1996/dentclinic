@@ -1,0 +1,80 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 12340;
+  overflow-y: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.15s linear;
+}
+
+/* .Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+} */
+
+.Modal {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1200;
+}
+
+.button_svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #999;
+  transition: 0.1s ease-in-out;
+  transition-property: color, opacity;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  padding: 0;
+  background-color: transparent;
+  display: inline-block;
+  fill: currentcolor;
+  line-height: 0;
+  padding: 10px;
+}
+
+.text_title_midl {
+  text-align: center;
+  color: #535258;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  color: #535258;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  text-transform: uppercase;
+}

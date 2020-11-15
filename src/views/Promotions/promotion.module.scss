@@ -1,0 +1,50 @@
+.promotions_cover_block{
+  width: 960px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.promotions_title{
+  color: #7b7a80;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.promotions_container_list{
+  box-shadow: 0 0 15px 8px;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between
+}
+
+.promotions_container_list_information{
+display: flex;
+justify-content: space-between;
+padding: 0 40px;
+}
+
+.promotions_container_list_link{
+  padding: 0;
+  margin: 0;
+
+}
+
+.promotions_container_list_svg{
+  position: relative;
+  top: 6px
+}
+
+.promotions_container_list_information_text{
+  color: #666;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  text-align: center
+}
