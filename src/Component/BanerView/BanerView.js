@@ -31,7 +31,6 @@ class BlockImageSelect extends Component {
                 // className={style.navLi}
                 activeClassName="Navigation-link-active"
               >
-                {" "}
                 <button className="cklickbutton">Про клініку</button>
               </NavLink>
 

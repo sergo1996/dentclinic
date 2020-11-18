@@ -9,7 +9,7 @@ export default function ServiceImageSelect() {
       <Carousel itemsToShow={2}>
         <div className="servis_block_item">
           <div className="image">
-            <img src="https://i.ibb.co/0yVckgD/zub-1.png" />
+            <img alt="qwe" src="https://i.ibb.co/0yVckgD/zub-1.png" />
           </div>
 
           <div className="servis_information">
@@ -24,7 +24,7 @@ export default function ServiceImageSelect() {
             </p>
             <h3>
               <div className="image_last">
-                <img src="https://i.ibb.co/XFVW72f/111222333.png" />
+                <img alt="qweew" src="https://i.ibb.co/XFVW72f/111222333.png" />
               </div>
               <span className="name_people">Алиса Геворкян</span>
             </h3>
@@ -32,7 +32,7 @@ export default function ServiceImageSelect() {
         </div>
         <div className="servis_block_item">
           <div className="image">
-            <img src="https://i.ibb.co/0yVckgD/zub-1.png" />
+            <img alt="qwefewew" src="https://i.ibb.co/0yVckgD/zub-1.png" />
           </div>
 
           <div className="servis_information">
@@ -43,7 +43,10 @@ export default function ServiceImageSelect() {
             </p>
             <h3>
               <div className="image_last">
-                <img src="https://i.ibb.co/XFVW72f/111222333.png" />
+                <img
+                  alt="qwfweeew"
+                  src="https://i.ibb.co/XFVW72f/111222333.png"
+                />
               </div>
               <span className="name_people">Юлия Белошапка</span>
             </h3>
@@ -51,7 +54,7 @@ export default function ServiceImageSelect() {
         </div>
         <div className="servis_block_item">
           <div className="image">
-            <img src="https://i.ibb.co/0yVckgD/zub-1.png" />
+            <img alt="qwfdseew" src="https://i.ibb.co/0yVckgD/zub-1.png" />
           </div>
 
           <div className="servis_information">
@@ -61,7 +64,10 @@ export default function ServiceImageSelect() {
             </p>
             <h3>
               <div className="image_last">
-                <img src="https://i.ibb.co/XFVW72f/111222333.png" />
+                <img
+                  alt="qwdfeew"
+                  src="https://i.ibb.co/XFVW72f/111222333.png"
+                />
               </div>
               <span className="name_people">Инесса Устинова</span>
             </h3>
@@ -70,7 +76,7 @@ export default function ServiceImageSelect() {
 
         <div className="servis_block_item">
           <div className="image">
-            <img src="https://i.ibb.co/0yVckgD/zub-1.png" />
+            <img alt="qweefdw" src="https://i.ibb.co/0yVckgD/zub-1.png" />
           </div>
 
           <div className="servis_information">
@@ -83,7 +89,10 @@ export default function ServiceImageSelect() {
             </p>
             <h3>
               <div className="image_last">
-                <img src="https://i.ibb.co/XFVW72f/111222333.png" />
+                <img
+                  alt="qwfdeew"
+                  src="https://i.ibb.co/XFVW72f/111222333.png"
+                />
               </div>
               <span className="name_people">Валентин Воронин</span>
             </h3>
@@ -91,7 +100,7 @@ export default function ServiceImageSelect() {
         </div>
         <div className="servis_block_item">
           <div className="image">
-            <img src="https://i.ibb.co/0yVckgD/zub-1.png" />
+            <img alt="qwfdeew" src="https://i.ibb.co/0yVckgD/zub-1.png" />
           </div>
 
           <div className="servis_information">
@@ -108,7 +117,10 @@ export default function ServiceImageSelect() {
             </p>
             <h3>
               <div className="image_last">
-                <img src="https://i.ibb.co/XFVW72f/111222333.png" />
+                <img
+                  alt="qwefdsew"
+                  src="https://i.ibb.co/XFVW72f/111222333.png"
+                />
               </div>
               <span className="name_people">Екатерина Стужак</span>
             </h3>

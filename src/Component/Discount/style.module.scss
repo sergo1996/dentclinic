@@ -1,0 +1,33 @@
+.block_cover{
+  margin: 0 auto;
+  width: 960px;
+
+}
+
+.block_title{
+  background-color: #f8f8f8;
+  padding: 40px;
+  color: #535258;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.block_cover > p{
+  color: #535258;
+}
+
+.block_cover > li{
+  color: #535258;
+  padding-left: 10px;
+}
+
+.block_cover li::before{
+  content: "\25CF";
+  padding-right: 5px;
+}
+
+.block_cover h4{
+  color: #535258;
+}
