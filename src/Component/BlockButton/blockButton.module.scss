@@ -5,9 +5,35 @@
 bottom: 0;
 right: 0;
 left: 0;
+}
 
+.scrollTo{
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:  #6bd3d1;
+  color: white;
+  cursor: pointer;
+  padding: 2px 18px;
+  border-radius:50%;
+  
+}
 
+.scrollTo:hover{
+  background-color: rgb(46, 172, 139); 
+}
 
+.scrollTo::after {
+  content: "\2191";
+
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #fff; 
 }
 
 
@@ -76,3 +102,9 @@ margin: 0 auto;
 .blockButton_forse_svg:hover{
 fill:white
 }
+
+@media (max-width: 600px) {
+  .scrollTo{
+ display: none;
+     }
+    }

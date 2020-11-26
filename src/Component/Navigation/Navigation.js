@@ -13,7 +13,7 @@ const Navigation = () => (
               exact={name.exact}
               to={name.path}
               className={style.navLi}
-              activeClassName="Navigation-link-active"
+              activeClassName={style.navigation_link_active}
             >
               {name.image && (
                 <img class="fit-picture" src={name.image} alt="first"></img>

@@ -5,7 +5,11 @@ flex-direction: row;
 align-items: center
 }
 
-
+.navigation_link_active{
+padding: 20px 40px;
+border-radius: 10%;
+  background-color: rgba(0, 195, 255, 0.296);
+}
 
 .navLi{
   text-decoration: none;

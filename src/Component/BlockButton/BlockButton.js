@@ -4,8 +4,20 @@ import OverkayBlock from "../../Component/OverkayBlock/OverkayBlock";
 import Toggler from "../../Component/Toggler/Toggler";
 
 export default function BlockImageSelect() {
+  const topFunction = () => {
+    window.scrollTo({
+      top: (document.documentElement.scrollTop = 0),
+      behavior: "smooth"
+    });
+  };
+
   return (
     <div className={style.blockButton_cover}>
+      <button
+        className={style.scrollTo}
+        onClick={topFunction}
+        title="Gototop"
+      ></button>
       <Toggler>
         {({ isOpen, onToggle }) => (
           <>

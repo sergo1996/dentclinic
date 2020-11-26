@@ -10,7 +10,7 @@ function Home(props) {
   return (
     <div>
       <BanerView />
-      <ServiceImageSelect />
+      <ServiceImageSelect {...props} />
       <Slider />
       <ComandPeople {...props} renderBlock="true" style={styleselect} />
     </div>

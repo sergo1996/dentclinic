@@ -111,6 +111,15 @@ const routes = [
       )
     ),
   },
+  {
+    path: "/diagnostic",
+    exact: true,
+    component: lazy(() =>
+      import(
+        "../Component/BlockService/Diagnostic/Diagnostic.js" /* webpackChunkName: "skidka-page" */
+      )
+    ),
+  },
 ];
 
 export default routes;

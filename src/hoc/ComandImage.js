@@ -15,7 +15,9 @@ const withHigherOrderComponent = (WrappedComponent) => {
                 <div className={style.section_title}>
                   <h2 className={style.section_title_name}>Наша команда</h2>
                   <div className={style.section_block_svg}>
-                    <a className={style.section_title_button}>Всі лікарі</a>
+                    <NavLink style={{ textDecoration: "none" }} to="/doctors">
+                      <a className={style.section_title_button}>Всі лікарі</a>
+                    </NavLink>
                     <span className={style.section_title_svg}>
                       <svg
                         width="20"
