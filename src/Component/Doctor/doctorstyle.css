@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .doctor_cover {
   margin: 0 auto;
   width: 960px;
@@ -13,6 +19,9 @@
   height: auto;
   margin-bottom: 4px;
   overflow: hidden;
+}
+.basicText{
+text-transform: none;
 }
 
 .doctor_name {

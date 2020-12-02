@@ -10,7 +10,14 @@ export default function ServiceImageSelect(props) {
       {jsonselect.map((item) => {
         return (
           <div key={item.name} className={style.servis_block_item}>
-            <NavLink style={{ textDecoration: "none" }} exact to="/diagnostic">
+            {/* <NavLink style={{ textDecoration: "none" }} exact to="/diagnostic"> */}
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to={{
+                pathname: "/services" + item.path,
+                state: { from: item.itemList },
+              }}
+            >
               <div className={style.servis_image}>
                 <img src={item.imagefilt} alt={item.imagefilt} />
               </div>
@@ -18,8 +25,10 @@ export default function ServiceImageSelect(props) {
             <div className={style.servis_information}>
               <NavLink
                 style={{ textDecoration: "none" }}
-                exact
-                to="/diagnostic"
+                to={{
+                  pathname: "/services" + item.path,
+                  state: { from: item.itemList },
+                }}
               >
                 <h2 className={style.servis_name_special}>{item.name} </h2>
               </NavLink>
@@ -33,8 +42,10 @@ export default function ServiceImageSelect(props) {
               {name !== "/services" && (
                 <NavLink
                   style={{ textDecoration: "none" }}
-                  exact
-                  to="/services"
+                  to={{
+                    pathname: "/service" + item.path,
+                    state: { from: item.itemList },
+                  }}
                 >
                   <a className={style.servis_information_line_next}>
                     Всі послуги

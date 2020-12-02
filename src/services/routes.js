@@ -20,16 +20,15 @@ const routes = [
       )
     ),
   },
-  // {
-  //   path: "/services/:serviceType/:serviceItem",
-  //   label: "Послуги",
-  //   exact: true,
-  //   component: lazy(() =>
-  //     import(
-  //       "../views/Services/ServiceItem.js" /* webpackChunkName: "services-page"*/
-  //     )
-  //   ),
-  // },
+  {
+    path: "/services/:id",
+    exact: true,
+    component: lazy(() =>
+      import(
+        "../Component/BlockService/Diagnostic/Diagnostic" /* webpackChunkName: "services-item"*/
+      )
+    ),
+  },
   {
     path: "/doctors",
     label: "Лікарі",
@@ -111,15 +110,15 @@ const routes = [
       )
     ),
   },
-  {
-    path: "/diagnostic",
-    exact: true,
-    component: lazy(() =>
-      import(
-        "../Component/BlockService/Diagnostic/Diagnostic.js" /* webpackChunkName: "skidka-page" */
-      )
-    ),
-  },
+  // {
+  //   path: "/diagnostic",
+  //   exact: true,
+  //   component: lazy(() =>
+  //     import(
+  //       "../Component/BlockService/Diagnostic/Diagnostic.js" /* webpackChunkName: "skidka-page" */
+  //     )
+  //   )
+  // }
 ];
 
 export default routes;

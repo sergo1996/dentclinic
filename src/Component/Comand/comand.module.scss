@@ -22,7 +22,6 @@
   padding: 0;
   margin: 0;
 
-  line-height: 1px;
   text-align: center;
 }
 .section_block_svg{
@@ -121,7 +120,7 @@ height: 120px;
   background-color: rgb(174, 174, 177);
 margin: 0;
 padding: 0;
-height: 25px;
+height: 14px;
 align-items: center;
 text-align: center;
 width: 150px;
@@ -133,6 +132,7 @@ width: 150px;
     text-transform: none;
     cursor: pointer;
     margin-left: 6px;
+    line-height: 1.4;
 }
 
 

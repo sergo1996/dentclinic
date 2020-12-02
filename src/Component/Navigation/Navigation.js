@@ -16,9 +16,13 @@ const Navigation = () => (
               activeClassName={style.navigation_link_active}
             >
               {name.image && (
-                <img class="fit_picture" src={name.image} alt="first"></img>
+                <img
+                  class={style.fit_picture}
+                  src={name.image}
+                  alt="first"
+                ></img>
               )}
-              <span className="textNav"> {name.label}</span>
+              <span className={style.textNa}> {name.label}</span>
             </NavLink>
           </li>
         )

@@ -1,17 +1,23 @@
 import React, { Component } from "react";
 import "./baner.css";
-import itemselect from "./itemList";
 
 class About extends Component {
   render() {
+    const { from } = this.props.location.state;
+    console.log(from);
     return (
       <div className="slider_buttom">
         <ul>
-          {itemselect.map((item) => {
+          {from.map((item) => {
             return (
-              <li className="itemlistselect">
+              <li>
                 <div className="slider">
-                  <img src={item.images} />
+                  <img
+                    src={item.images}
+                    width="100%"
+                    height="100%"
+                    alt="Иллюстрация"
+                  />
                   <div className="slider_part">
                     <h2 className="slider_description">{item.name}</h2>
                   </div>
@@ -60,7 +66,6 @@ class About extends Component {
                     {item.price.map((itemnameprice) => {
                       return (
                         <li className="prices_block_information_price">
-                          {" "}
                           <span className="prices_block_information_price_first">
                             {itemnameprice.names}
                           </span>

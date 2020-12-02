@@ -32,7 +32,7 @@ export default function Doctor(props) {
           <p>
             <strong className="doctor_cover_item_educate"> Освіта: </strong>
             {from.education.map((item) => (
-              <p>{item.text}</p>
+              <p className="basicText">{item.text}</p>
             ))}
           </p>
         </div>
