@@ -43,7 +43,7 @@ export default function ServiceImageSelect(props) {
                 <NavLink
                   style={{ textDecoration: "none" }}
                   to={{
-                    pathname: "/service" + item.path,
+                    pathname: "/services" + item.path,
                     state: { from: item.itemList },
                   }}
                 >

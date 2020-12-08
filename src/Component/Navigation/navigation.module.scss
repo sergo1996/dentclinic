@@ -15,6 +15,24 @@ align-items: center
   font-weight: 700;
 }
 
+.navigationlist_fixed{
+  display: flex;
+  flex-direction: column;
+}
+.li_fixed{
+  margin-bottom: 15px;
+  margin-left: 9px;
+}
+.navLi_fixed{
+
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 .navigation_link_active{
 padding: 10px 0;
 border-radius: 10%;

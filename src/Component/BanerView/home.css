@@ -71,3 +71,29 @@ margin-left: 20px;
 
 }
 
+@media (max-width: 768px){
+  .slider_description{
+    font-size: 29px;
+    margin-top: 50px;
+  }
+  .cklickbutton{
+    display: none;
+  }
+
+  .slider {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 460px){
+  .cklickbutton{
+    display: none;
+  }
+  .slider_description{
+    margin-top: 80px;
+    font-size: 19px;
+  }
+
+}
+
