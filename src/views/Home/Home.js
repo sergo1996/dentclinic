@@ -3,7 +3,7 @@ import BanerView from "../../Component/BanerView/BanerView";
 
 import ComandPeople from "../../Component/Comand/Comand";
 import ServiceImageSelect from "../../Component/ServiceSection/ServiseSection";
-import styleselect from "./comandhome.module.scss";
+import styleselect from "./comandhome.module.css";
 import Slider from "../../Component/SliderComent/Slider";
 
 function Home(props) {

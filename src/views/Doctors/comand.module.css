@@ -1,0 +1,148 @@
+.section_title {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.section_title_name {
+  color: #535258;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.section_title_button {
+  padding: 0;
+  margin: 0;
+  line-height: 1px;
+  text-align: center;
+}
+.section_block_svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.section_title_svg {
+  padding-left: 7px;
+  position: relative;
+  top: 3px;
+}
+
+.section_comand_lis {
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.comand_item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 237px;
+  height: auto;
+  margin-bottom: 4px;
+
+  overflow: hidden;
+}
+
+.block_button {
+  height: auto;
+
+  max-width: 100%;
+}
+
+.item_name {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 6px;
+  display: block;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(84, 91, 102);
+}
+
+.comand_item_position {
+  display: none;
+  padding-left: 6px;
+
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.comand_item_more {
+  display: block;
+  border: 1px solid rgb(96, 102, 96);
+  background-color: rgb(174, 174, 177);
+  margin: 0;
+  padding: 0;
+  height: 19px;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  position: relative;
+  color: #fff;
+  color: #444;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.comand_item_more:hover {
+  color: white;
+  border: 1px solid rgb(64, 170, 64);
+  background-color: rgb(163, 202, 168);
+}
+
+.section_back_color {
+  background-color: #f7f6f4;
+}
+
+@media (max-width: 960px) {
+  .section_comand_lis {
+    width: 680px;
+  }
+  .comand_item {
+    width: 210px;
+  }
+}
+
+@media (max-width: 580px) {
+  .section_comand_lis {
+    width: 440px;
+  }
+  .comand_item {
+    width: 210px;
+  }
+}
+
+@media (max-width: 360px) {
+  .section_comand_lis {
+    width: 240px;
+  }
+  .comand_item {
+    width: 210px;
+  }
+}

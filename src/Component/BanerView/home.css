@@ -70,10 +70,21 @@ margin-left: 20px;
   box-shadow: 0 -3px rgb(33,147,90) inset;
 
 }
+@media (max-width: 960px){
+  .slider_description{
+    font-size: 22px;
+
+  }
+  .slider {
+    height: 400px;
+
+  }
+
+}
 
 @media (max-width: 768px){
   .slider_description{
-    font-size: 29px;
+    font-size: 22px;
     margin-top: 50px;
   }
   .cklickbutton{

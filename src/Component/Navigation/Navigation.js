@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 import { NavLink } from "react-router-dom";
 import routes from "../../services/routes";
 import style from "./navigation.module.scss";
@@ -13,7 +12,7 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import List from "@material-ui/core/List";
 
-const drawerWidth = 240;
+const drawerWidth = 170;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
+    position: "absolute",
+    right: 0,
+    top: 0,
   },
   drawerPaper: {
     width: drawerWidth,
@@ -98,13 +100,7 @@ const Navigation = () => {
                     className={style.navLi}
                     activeClassName={style.navigation_link_active}
                   >
-                    {name.image && (
-                      <img
-                        class={style.fit_picture}
-                        src={name.image}
-                        alt="first"
-                      ></img>
-                    )}
+                    {name.image && <img src={name.image} alt="first"></img>}
                     <span className={style.textNa}> {name.label}</span>
                   </NavLink>
                 </li>
@@ -112,76 +108,73 @@ const Navigation = () => {
           )}
         </ul>
       ) : (
-        <div className={style.navigationlist}>
+        <div className={style.navigationlist__btn}>
           <NavLink
             exact="true"
             to="/dentclinic"
             className={style.navLi}
             activeClassName={style.navigation_link_active}
           >
-            <img
-              class={style.fit_picture}
-              src="https://i.ibb.co/rc3jfYz/logo-c.jpg"
-              alt="first"
-            ></img>
+            <img src="https://i.ibb.co/rc3jfYz/logo-c.jpg" alt="first"></img>
           </NavLink>
-          <IconButton
-            variant="contained"
-            color="primary"
-            aria-label="open drawer"
-            edge="end"
-            onClick={handleDrawerOpen}
-            className={clsx(open && classes.hide)}
-            style={{
-              marginLeft: "190px",
-              backgroundColor: "rgba(0, 195, 255, 0.296)",
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Drawer
-            className={classes.drawer}
-            variant="persistent"
-            anchor="right"
-            open={open}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-          >
-            <div className={classes.drawerHeader}>
-              <IconButton onClick={handleDrawerClose}>
-                {theme.direction === "rtl" ? (
-                  <ChevronLeftIcon />
-                ) : (
-                  <ChevronRightIcon />
-                )}
-              </IconButton>
-            </div>
+          <div>
+            <IconButton
+              variant="contained"
+              color="primary"
+              aria-label="open drawer"
+              edge="end"
+              onClick={handleDrawerOpen}
+              style={{
+                backgroundColor: "rgba(0, 195, 255, 0.296)",
+                marginRight: "20px",
+              }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Drawer
+              className={classes.drawer}
+              variant="persistent"
+              anchor="right"
+              open={open}
+              classes={{
+                paper: classes.drawerPaper,
+              }}
+            >
+              <div className={classes.drawerHeader}>
+                <IconButton onClick={handleDrawerClose}>
+                  {theme.direction === "rtl" ? (
+                    <ChevronLeftIcon />
+                  ) : (
+                    <ChevronRightIcon />
+                  )}
+                </IconButton>
+              </div>
 
-            <List>
-              <ul className={style.navigationlist_fixed}>
-                {routes.map(
-                  (name) =>
-                    name.label && (
-                      <li
-                        className={style.li_fixed}
-                        onClick={handleDrawerClose}
-                        key={name.path}
-                      >
-                        <NavLink
-                          exact={name.exact}
-                          to={name.path}
-                          className={style.navLi_fixed}
-                          activeClassName={style.navigation_link_active}
+              <List>
+                <ul className={style.navigationlist_fixed}>
+                  {routes.map(
+                    (name) =>
+                      name.label && (
+                        <li
+                          className={style.li_fixed}
+                          onClick={handleDrawerClose}
+                          key={name.path}
                         >
-                          <span className={style.textNa}> {name.label}</span>
-                        </NavLink>
-                      </li>
-                    )
-                )}
-              </ul>
-            </List>
-          </Drawer>
+                          <NavLink
+                            exact={name.exact}
+                            to={name.path}
+                            className={style.navLi_fixed}
+                            activeClassName={style.navigation_link_active}
+                          >
+                            <span className={style.textNa}> {name.label}</span>
+                          </NavLink>
+                        </li>
+                      )
+                  )}
+                </ul>
+              </List>
+            </Drawer>
+          </div>
         </div>
       )}
     </div>

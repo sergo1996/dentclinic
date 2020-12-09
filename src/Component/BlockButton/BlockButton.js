@@ -6,8 +6,8 @@ import Toggler from "../../Component/Toggler/Toggler";
 export default function BlockImageSelect() {
   const topFunction = () => {
     window.scrollTo({
-      top: (document.documentElement.scrollTop = 0),
-      behavior: "smooth"
+      top: 0,
+      behavior: "smooth",
     });
   };
 

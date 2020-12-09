@@ -41,7 +41,7 @@ export default class PriceComponent extends React.Component {
                             <div className="prices_block_information_img">
                               <img
                                 src={item.image}
-                                style={{ height: "200px", borderRadius: "15%" }}
+                                style={{ borderRadius: "15%" }}
                                 alt={item.name}
                               />
                             </div>

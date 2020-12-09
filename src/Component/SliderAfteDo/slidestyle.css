@@ -58,3 +58,36 @@ p {
 
   color: rgb(124, 123, 123);
 }
+
+
+
+@media (max-width: 960px) {
+ 
+.block_item {
+flex-direction: row;
+
+}
+.block_cover_item {
+
+  width:auto;
+}
+.titleselect {
+ 
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+ }
+ .block_text p {
+   font-size: 10px;
+   padding: 0;
+ }
+        }
+
+        @media (max-width: 480px) {
+ 
+        
+           .block_text p {
+             font-size: 6px;
+             padding: 0;
+           }
+                  }

@@ -84,3 +84,30 @@
   top:6px;
 }
 
+
+
+@media (max-width: 960px) {
+  .servis_block{
+    margin: 0 auto;
+    padding: 0;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+
+}
+
+@media (max-width: 480px) {
+  .servis_block{
+    margin: 0 auto;
+    padding: 0;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+
+}

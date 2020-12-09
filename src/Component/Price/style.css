@@ -46,7 +46,7 @@
 
 .prices_block_information_img {
   width: 30%;
-  height: auto;
+  /* height: auto; */
 }
 
 .prices_block_information_text p {
@@ -84,3 +84,27 @@
   white-space: nowrap;
   font-size: 20px;
 }
+
+
+@media (max-width: 960px) {
+  .prices_block_cover{
+    width: auto;
+  }
+  .prices_block_information_img {
+    display: block;
+
+  }
+  .prices_block_information_price_first {
+  
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .prices_block_information_price_last{
+    font-size: 15px;
+  }
+  .prices_block_information_text p {
+    font-size: 15px;
+  text-transform: none;
+  }
+         }
+ 

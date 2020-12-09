@@ -75,7 +75,7 @@
   font-weight: initial;
   color: rgb(92, 86, 86);
   font-size: 14px;
-text-transform: none;
+  text-transform: none;
   padding-left: 7px;
   padding-right: 5px;
   line-height: 1.2;
@@ -92,4 +92,16 @@ text-transform: none;
 
 .name_people {
   margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .styling-example {
+    width: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  .styling-example {
+    width: 990px;
+  }
 }

@@ -38,16 +38,14 @@ left: 0;
 
 
 .blockButton_information{
-width: 960px;
+width:auto;
 margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
 
 }
 
-.blockButton_information{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .blockButton_document{
   display: flex;
@@ -102,9 +100,39 @@ margin: 0 auto;
 .blockButton_forse_svg:hover{
 fill:white
 }
+@media (max-width: 960px) {
+  .blockButton_forse h4{
+    display: none;
+  }
+
+}
+
 
 @media (max-width: 600px) {
   .scrollTo{
  display: none;
      }
+     .blockButton_forse h4{
+      display: none;
     }
+ .blockButton_document_fi_hiden{
+       display: none;
+     }
+    }
+    @media (max-width: 480px) {
+ .blockButton_forse h4{
+   display: none;
+ }
+ .blockButton_cover{
+  height: 45px;
+ 
+}
+ .blockButton_document_fi{
+
+  width: 160px;
+  height: 30px;
+  font-size: 9px;
+
+}
+        }
+

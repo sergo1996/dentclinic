@@ -1,12 +1,15 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import "./style.css";
+import useWindowDimensions from "../GetWindowDimensions/getWindowDimensions";
 
 export default function ServiceImageSelect() {
+  const { height, width } = useWindowDimensions();
+
   return (
     <div className="styling-example">
       <h2 className="title_header">Відгуки</h2>
-      <Carousel itemsToShow={2}>
+      <Carousel itemsToShow={width > 720 ? 2 : 1}>
         <div className="servis_block_item">
           <div className="image">
             <img alt="qwe" src="https://i.ibb.co/0yVckgD/zub-1.png" />
